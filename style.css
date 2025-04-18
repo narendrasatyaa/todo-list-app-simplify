@@ -1,0 +1,154 @@
+body {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 0.1) 0%, rgba(253, 187, 45, 1) 100%);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    color: white;
+}
+
+#todo-container {
+    background: rgb(41, 33, 33);
+    width: 400px;
+    margin: 0 auto;
+    border: 2px solid #0033ff;
+    padding: 30px;
+    color: white;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+#todo-container:hover {
+    transform: translateY(-5px);
+}
+
+#header {
+    margin: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #FFD700;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#input-box {
+    width: 220px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #333;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s ease;
+}
+
+#input-box:focus {
+    border-color: #0056b3;
+    outline: none;
+}
+
+#input-button {
+    font-size: 18px;
+    cursor: pointer;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #2e60ea;
+    color: white;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#input-button:hover {
+    background-color: #9eb7fd;
+    transform: translateY(-2px);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+li {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    padding: 12px;
+    background-color: #2c2f38;
+    position: relative;
+    font-size: 18px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    /* Ensures buttons are on the right side */
+    align-items: center;
+    /* Vertically align content */
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+li:hover {
+    background-color: #3c434a;
+    transform: translateY(-2px);
+}
+
+.edit-btn,
+.delete-btn {
+    color: #e85a71;
+    cursor: pointer;
+    margin-left: 10px;
+    /* Space out the buttons */
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    padding: 5px 10px;
+    background: none;
+    transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.edit-btn:hover,
+.delete-btn:hover {
+    color: #ff6347;
+    transform: scale(1.1);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: gray;
+    border: 1px solid #555;
+    background-color: #444;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.counter-container {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    text-align: center;
+}
+
+#task-counters {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+#completed-counter,
+#uncompleted-counter {
+    font-weight: 600;
+    color: #2e60ea;
+}
