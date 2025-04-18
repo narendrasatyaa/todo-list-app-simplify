@@ -21,9 +21,8 @@ Aplikasi **Todo List App** memiliki potensi untuk berkembang lebih jauh dengan p
 ## Teknologi yang Digunakan
 
 - **HTML5**
-- **CSS3** (atau bisa menggunakan framework seperti Bootstrap atau Tailwind untuk desain responsif)
-- **JavaScript** (untuk interaktivitas dan logika aplikasi)
-- **LocalStorage/SessionStorage** (untuk menyimpan data tugas pengguna secara lokal)
+- **CSS3** 
+- **JavaScript** 
 
   ## Cara Menjalankan Aplikasi
 
@@ -34,4 +33,3 @@ Aplikasi **Todo List App** memiliki potensi untuk berkembang lebih jauh dengan p
 3. code .
 4. Buka file index.html di browser favorit kamu.
 5. Nikmati aplikasi daftar tugas sederhana yang membantu mengatur harimu!
-6. 
