@@ -28,7 +28,7 @@ Aplikasi **Todo List App** memiliki potensi untuk berkembang lebih jauh dengan p
 
 1. Clone repository ini ke komputer kamu.
    ```bash
-   git clone https://github.com/username/simplify-todo-list.git
+   git clone https://github.com/narendrasatyaa/simplify-todo-list.git
 2. cd simplify-todo-list
 3. code .
 4. Buka file index.html di browser favorit kamu.
